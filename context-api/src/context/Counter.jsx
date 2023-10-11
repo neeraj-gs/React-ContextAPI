@@ -7,8 +7,6 @@ export const CounterContext = createContext(null); //create a coutner context an
 export const CounterProvider=(props)=>{
    const [count,setCount] = useState(0);
    return(
-      <CounterContext.Provider value={{count}}>
-         {props.children}
-      </CounterContext.Provider>
+      <CounterContext.Provider value={{count,setCount}}>{props.children}</CounterContext.Provider>
    )
 }
