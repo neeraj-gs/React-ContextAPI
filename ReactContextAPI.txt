@@ -1,0 +1,17 @@
+React Context API
+
+Problem Solved By ContextAPI 
+   Why?
+      There are multiple cmopoents that are rendereign sub compeonts 
+      State is presetn in A compoent and there are B,C,D compeonts originiaint g from them respectively
+      This is prop drilling , which is bad practice as  we need to change entire compoentn tree and get it 
+
+      IN Context
+         We add state in this compent and now any compeont can access it wirhout prop drilling 
+         Compeont can read/write state variables inside react context and not dependent on any compeont 
+         Wehn A COmpeont cahgnes then deependent cnotetn , re-renders with new Values
+
+         Makes State Management Easy 
+         To give compoents accesst o context , wrap compeonts inside ContextProvider , only then compeonts can access teh context api 
+         
+
