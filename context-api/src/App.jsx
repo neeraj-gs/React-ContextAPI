@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Context API </h1>
+      <h1 style={{textAlign:"center"}}>Context API </h1>
     </div>
   )
 }
