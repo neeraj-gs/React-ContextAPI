@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className='App'>
-      Weather App
+      <h1>Weather Forecast</h1>
     </div>
   )
 }
